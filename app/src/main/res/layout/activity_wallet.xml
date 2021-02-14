@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Wallet"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"></androidx.appcompat.widget.Toolbar>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+
+
+
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/rupee3"/>
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@android:color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:id="@+id/balance"/>
+</LinearLayout>
+    
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+    
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Add money"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:id="@+id/addMoney"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="withdraw money"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:id="@+id/withdrawMoney"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="view transactions"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:id="@+id/viewTransactions"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+</LinearLayout>

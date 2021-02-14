@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "273865832143",
+    "firebase_url": "https://pro-player-1586319086097.firebaseio.com",
+    "project_id": "pro-player-1586319086097",
+    "storage_bucket": "pro-player-1586319086097.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273865832143:android:fe6e067af0ed1f21c669ba",
+        "android_client_info": {
+          "package_name": "com.easylife.proplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273865832143-rii1ul7p4ne77e42ojsla4nkdpj4dd5l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.easylife.proplayer",
+            "certificate_hash": "a99168a0245e42238b454bba3dd6bc5da8632ba1"
+          }
+        },
+        {
+          "client_id": "273865832143-gpj7mk4m1uh0gf717q4ghb3sh0p48rul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFtcAdIrrTVOy-sa-zy2BBPQ8qRFSOtAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273865832143-gpj7mk4m1uh0gf717q4ghb3sh0p48rul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
